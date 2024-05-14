@@ -1,4 +1,4 @@
-// ! Codewars Challenge: Messi Goals function
+// ! Codewars Challenge: Messi Goals function!
 
 // Messi is a soccer player with goals in three leagues:
     // LaLiga
