@@ -12,7 +12,7 @@
 
 //split the string into an array using split()
 //next iterate over the array using for each() and an if statement
-//Change the array back to a string using join()
+//Change the array back to a string using join()!!
 
 
 
