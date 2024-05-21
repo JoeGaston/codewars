@@ -1,4 +1,4 @@
-// ! Codewars Challenge: Cockraoch
+// ! Codewars Challenge: Cockraoch / 8KYU
 
 // The cockroach is one of the fastest insects. Write a function which takes its speed in km per hour and returns it in cm per second, rounded down to the integer (= floored).
 
@@ -23,9 +23,9 @@ function cockroachSpeed(s) {
     return cmps
   }
 
-let s = Math.floor(Math.random()*100)
+let kmph = Math.floor(Math.random()*100)
 
-console.log(cockroachSpeed(s))
+console.log(cockroachSpeed(kmph))
 
 
 // ! Best practices

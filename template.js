@@ -1,4 +1,4 @@
-// ! Codewars Challenge: insert name here
+// ! Codewars Challenge/ Difficulty: insert name here/
 
 
 
