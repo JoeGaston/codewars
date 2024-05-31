@@ -1,0 +1,60 @@
+// ? Codewars Challenge/ Difficulty: You cant code under pressure 8kyu
+
+
+//doubble the integer as fast as you can
+
+
+// ! Psuedo code
+
+// n/a
+
+
+
+
+// ! My solution
+
+function doubleInteger(i) {
+    // i will be an integer. Double it and return it.
+    return i * 2;
+  }
+
+
+
+// ! Best practices
+
+
+
+
+
+// !lessons learned
+
+
+
+
+
+// ? Codewars Challenge/ Difficulty: 
+
+
+
+
+
+// ! Psuedo code
+
+
+
+
+
+
+// ! My solution
+
+
+
+
+
+// ! Best practices
+
+
+
+
+
+// !lessons learned
