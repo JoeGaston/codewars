@@ -27,6 +27,7 @@
 function stray(numbers) {
     // sort the array
     let sortedarr = numbers.sort((a,b) => a - b)
+    console.log(sortedarr)
     // iterate through the array using forEach
     for (let i = 0; i < sortedarr.length; i++) {
         if (sortedarr[i] !== sortedarr[1]) {
@@ -38,7 +39,7 @@ function stray(numbers) {
 
     };
 
-let arr = [-8,1,1,1,1,1]
+let arr = [1,1,1,15,1,1]
 
 console.log(stray(arr))
 
