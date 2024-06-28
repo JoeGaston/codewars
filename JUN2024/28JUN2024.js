@@ -14,21 +14,49 @@
 // if a < b push 
 
 
-function giveMeSunshine(dailyTemps) {
-    let daysUntilWarmth = []
+// function giveMeSunshine(dailyTemps) {
+//     let daysUntilWarmth = []
 
-    for (let i = 0; i <= dailyTemps.length; i++) {
-        let counter = 0
-        if (dailyTemps[i] < dailyTemps[i + 1]) {
-            daysUntilWarmth.push(1)
-        } else if (dailyTemps[i] > dailyTemps[i + 1]) { // we need to stop and enter into another conditional here that can begin to count number of days until it finds a greater number.
-            counter +=1
-            console.log(counter)
-            daysUntilWarmth.push(0)
-        }  
-    } return daysUntilWarmth
-}
+//     for (let i = 0; i <= dailyTemps.length; i++) {
+//         let counter = 0
+//         if (dailyTemps[i] < dailyTemps[i + 1]) {
+//             daysUntilWarmth.push(1)
+//         } else if (dailyTemps[i] > dailyTemps[i + 1]) { // we need to stop and enter into another conditional here that can begin to count number of days until it finds a greater number. After that, the counter would be used to assign the value to the daysUntilWarm array and then count down to 0?
+//             counter +=1
+//             console.log(counter)
+//             daysUntilWarmth.push(0)
+//         }  
+//     } return daysUntilWarmth
+// }
 
-dailyTemps = [73, 74, 75, 71, 69, 72, 76, 73]
+// dailyTemps = [73, 74, 75, 71, 69, 72, 76, 73]
 
-console.log(giveMeSunshine(dailyTemps))
+// console.log(giveMeSunshine(dailyTemps))
+
+
+// ? Codewars Challenge/ Difficulty: insert name here/
+
+
+
+
+
+// ! Psuedo code
+
+
+
+
+
+
+// ! My solution
+
+
+
+
+
+// ! Best practices
+
+
+
+
+
+// !lessons learned
