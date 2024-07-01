@@ -35,3 +35,45 @@ dailyTemps = [73, 74, 75, 71, 69, 72, 76, 73]
 
 console.log(giveMeSunshine(dailyTemps))
 
+<<<<<<< HEAD
+=======
+
+// ? Codewars Challenge/ Difficulty: insert name here/
+
+
+// Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
+
+// For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
+
+// [10, 343445353, 3453445, 3453545353453] should return 3453455.
+
+
+
+
+// ! Psuedo code
+
+
+
+
+
+
+// ! My solution
+
+function sumTwoSmallestNumbers(numbers) {  
+    let sortedArr = numbers.sort((a,b) => a - b)
+    let sum = sortedArr[0] + sortedArr[1]
+    return sum
+  }
+
+let numbers = [19, 5, 42, 2, 77]
+
+console.log(sumTwoSmallestNumbers(numbers))
+
+// ! Best practices
+
+
+
+
+
+// !lessons learned
+>>>>>>> 02b8521a719fb6543eaba80e9b0b9ef7bcf27753
