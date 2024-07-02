@@ -10,14 +10,14 @@
 //                "1" -->                "1"
 //                 "" -->                 ""
 
-// // "What was the name of your first pet?"
+//  "What was the name of your first pet?"
 // "Skippy" --> "##ippy"
 // "Nananananananananananananananana Batman!" --> "####################################man!"
 
 
 
 // ! Psuedo code
-// create a function that takes in a string
+// create a function that takes in a string <>
 // iterate over the string of characters. 
 // need to use the .length method to identify the "last four" characters of a string
 // if [i] is not in the last four digits, use hash
@@ -26,12 +26,20 @@
 
 
 // ! My solution
+function maskify(str) {
+    
+    for (let i = 0; i < str.length; i++) {
+        if (str.length <= 4) {
+            return str
+        } else if (str.length > 4) {
 
-// return masked string
-function maskify(cc) {
-
+        }
+    }
 }
 
+let str = '987654321'
+
+maskify(str)
 
 
 
