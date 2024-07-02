@@ -27,19 +27,20 @@
 
 // ! My solution
 function maskify(str) {
-    
+
     for (let i = 0; i < str.length; i++) {
-        if (str.length <= 4) {
+        if (str.length <= 4) { // this catches any cases of 4 characters or less.
             return str
         } else if (str.length > 4) {
-
+            str[i] = "#"
         }
     }
+    return str
 }
 
 let str = '987654321'
 
-maskify(str)
+console.log(maskify(str))
 
 
 
