@@ -25,29 +25,69 @@
 
 
 
-// ! My solution
-function maskify(str) {
+// // ! My solution
+// function maskify(str) {
 
-    for (let i = 0; i < str.length; i++) {
-        if (str.length <= 4) { // this catches any cases of 4 characters or less.
-            return str
-        } else if (str.length > 4) {
-            str[i] = "#"
-        }
-    }
-    return str
-}
+//     for (let i = 0; i < str.length; i++) {
+//         if (str.length <= 4) { // this catches any cases of 4 characters or less.
+//             return str
+//         } else if (str.length > 4) {
+//             str[i] = "#"
+//         }
+//     }
+//     return str
+// }
 
-let str = '987654321'
+// let str = '987654321'
 
-console.log(maskify(str))
-
-
-
-// ! Best practices
+// console.log(maskify(str))
 
 
 
+// TODO ARRAY LADDER 8KYU
 
 
-// !lessons learned
+// Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+
+// For example,
+
+// [true,  true,  true,  false,
+//   true,  true,  true,  true ,
+//   true,  false, true,  false,
+//   true,  false, false, true ,
+//   true,  true,  true,  true ,
+//   false, false, true,  true]
+// The correct answer would be 17.
+
+// Hint: Don't forget to check for bad values like null/undefined
+
+
+// define a counter
+//iterate through the array.
+// if i = true, counter += 1
+// return counter
+
+
+// function countSheeps(sheep) {
+//     let counter = 0
+//     sheep.forEach(element => {
+//         if (element === true) {
+//             counter += 1
+//     }})
+//     return counter
+// }
+
+// let sheep = [true,  true,  true,  false, true,  true,  true,  true , true,  false]
+
+// console.log(countSheeps(sheep))
+
+
+// Task
+// Given an array of integers, remove the smallest value. Do not mutate the original array/list. If there are multiple elements with the same value, remove the one with the lowest index. If you get an empty array/list, return an empty array/list.
+
+// Don't change the order of the elements that are left.
+
+// Examples
+// * Input: [1,2,3,4,5], output = [2,3,4,5]
+// * Input: [5,3,2,1,4], output = [5,3,2,4]
+// * Input: [2,2,1,2,1], output = [2,2,2,1]
