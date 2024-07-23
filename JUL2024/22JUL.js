@@ -14,9 +14,13 @@
 // if iterable is a string it needs to be split, if not keep it the same. <>
 // Need to identify unique elements and disregard a repeated 'non-unique' element
     //From what I can see in the examples I'm under the impression I can compare one value to its next value.
-    // If arr[0] === arr[1] I could push arr[0] into another array. But What if there are 4 letters in a row? I cant tell it to skip the next 2 elements.
-        // filter will not work
-        // 
+    // iterate through the array (start i === 1)
+        // if [last index i - 1] == [current index i]
+            //search new arr for last index 
+                // if false newArr.push[last index]
+                // if true, continue
+        // if [last index i - 1] !== [current index i]
+
 
 
 // ! My solution
@@ -28,7 +32,6 @@ function uniqueInOrder(iterable) {
     } else {
         newArr = iterable
     }
-
     console.log(newArr)
   }
 
@@ -37,7 +40,9 @@ function uniqueInOrder(iterable) {
   console.log(uniqueInOrder([1,2,3]))
 
 // ! Best practices
-
+ 
 
 
 // !lessons learned
+
+// I spent two days on this one with psuedo code and felt close, but couldnt get it. It was definetly worth my time.
