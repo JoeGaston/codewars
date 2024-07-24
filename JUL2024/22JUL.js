@@ -27,12 +27,27 @@
 
 function uniqueInOrder(iterable) {
     let newArr = []
+    // this gives us an arr regardless of array/string entry
     if (typeof iterable == 'string') {
         newArr = iterable.split('')
     } else {
         newArr = iterable
     }
     console.log(newArr)
+
+    let answerArr = []
+
+    for (let i = 1; i < newArr.length; i++) {
+        if (i - 1 === i) {
+            //i exists in newArr ? continue: newArr.push[i]
+        } else if (i - 1 !== i && i - 1 === 0) {
+            newArr.push(i - 1)
+        } else {
+            newArr.push(i)
+        }
+    }
+
+    
   }
 
 
